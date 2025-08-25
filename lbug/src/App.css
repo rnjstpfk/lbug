@@ -42,3 +42,8 @@ body {
   text-align: center;
   padding: 10px;
 }
+
+
+
+/* 전역 예시: src/App.css 혹은 SCSS */
+.container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }

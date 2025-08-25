@@ -1,0 +1,4 @@
+/* src/components/QuickActions.scss */
+.quick-actions { display:flex; gap:12px; padding:16px 0; flex-wrap:wrap; }
+.pill { padding:10px 14px; border-radius:999px; background:#fff; color:#111; border:1px solid #eee; text-decoration:none; font-weight:600; }
+.pill:hover { background:#ff4d6d; color:#fff; border-color:#ff4d6d; }
