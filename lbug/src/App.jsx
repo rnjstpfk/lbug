@@ -1,16 +1,23 @@
-
 import './App.css'
+import Header from './components/Header'
+import About from './components/About'
+import Gallery from './components/Gallery'
+import Contact from './components/Contact'
 
-// App.jsx
 function App() {
   return (
-    <div>
-      <h1>Hello React!</h1>
-      <p>예전처럼 그대로 코딩하면 됩니다 😎</p>
+    <div className="app">
+      <Header />
+      <main>
+        <About />
+        <Gallery />
+        <Contact />
+      </main>
+      <footer className="footer">
+        <p>© 2025 Ladybug World. All rights reserved.</p>
+      </footer>
     </div>
-  );
+  )
 }
 
-export default App;
-
-
+export default App
